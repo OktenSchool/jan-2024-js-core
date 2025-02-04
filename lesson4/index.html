@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    // p = (a+b)*2
+    // S = a*b
+    // v = 2PIr*h
+
+    //  a*b = S
+    // 10*20=200
+    // 100*20=2000
+    // 5*10=50
+    //
+    // let s1 = 10 * 20;
+    // let resS1 = s1 - (s1 / 100) * 0.5
+    //
+    // let s2 = 30 * 20;
+    // let resS2 = s1 - (s1 / 100) * 0.5
+
+
+    // debugger;
+    // function calculateSquare(a, b, c) {
+    //     let s = a * b;
+    //     let result = s - (s / 100 * c)
+    //     return result;
+    // }
+    //
+    // let x = calculateSquare(10, 20, 2);
+    // console.log(x);
+    //
+    // let x2 = calculateSquare(123, 234, 4);
+    // console.log(x2);
+
+    // let users = [
+    //     {name: 'vasya', age: 31, status: false},
+    //     {name: 'petya', age: 30, status: true},
+    //     {name: 'kolya', age: 29, status: true},
+    //     {name: 'olya', age: 28, status: false},
+    //     {name: 'max', age: 30, status: true},
+    //     {name: 'anya', age: 31, status: false},
+    //     {name: 'oleg', age: 28, status: false},
+    //     {name: 'andrey', age: 29, status: true},
+    //     {name: 'masha', age: 30, status: true},
+    //     {name: 'olya', age: 31, status: false},
+    //     {name: 'max', age: 31, status: true}
+    // ];
+    //
+    // let products = [
+    //     {
+    //         title: 'milk',
+    //         price: 22,
+    //         image: 'https://www.mcqueensdairies.co.uk/wp-content/uploads/2019/02/Mcqueens_1litre_whole_organic-300x300-3.jpg'
+    //     },
+    //     {
+    //         title: 'juice',
+    //         price: 27,
+    //         image: 'https://images-na.ssl-images-amazon.com/images/I/61jL2GCuKLL._SX679_PIbundle-24,TopRight,0,0_AA679SH20_.jpg'
+    //     },
+    //     {
+    //         title: 'tomato',
+    //         price: 47,
+    //         image: 'https://dictionary.cambridge.org/ru/images/thumb/tomato_noun_001_17860.jpg?version=5.0.74'
+    //     },
+    //     {
+    //         title: 'tea',
+    //         price: 15,
+    //         image: 'https://www.assamicaagro.in/cdn/shop/articles/Untitled_design_26_1200x1200.png?v=1592799889'
+    //     },
+    // ];
+    //
+    // let nums = [123123, 12, 312, 31, 32, 123, 213]
+    //
+    //
+    // function iterator(array) {
+    //     for (const element of array) {
+    //         console.log(element);
+    //     }
+    // }
+    //
+    // // debugger;
+    // let q = iterator(users);
+    // console.log(q);
+    // iterator(products);
+    // iterator(nums);
+
+
+    function generateUser(name, age, status) {
+        let user = {name: name, age: age, status: status};
+        return user;
+    }
+
+    let user1 = generateUser('vasya', 31, true); // {name:'vasya ...}
+    console.log(user1);
+
+    let user2 = generateUser('petya', 32, false);
+    console.log(user2);
+
+
+</script>
+
+</body>
+</html>
