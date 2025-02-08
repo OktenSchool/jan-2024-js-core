@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #xxx {
+            width: 200px;
+            height: 200px;
+            background: rgb(137, 132, 132);
+        }
+    </style>
+</head>
+<body>
+<!--<input type="text" id="foo">-->
+<!--<div id="xxx"></div>-->
+
+<script>
+    // let xxx = document.getElementById('xxx');
+    // // xxx.onclick = function () {
+    // //     xxx.style.background = 'red';
+    // // }
+    //
+    // xxx.onmousemove = function (witness) {
+    //     let r = witness.x;
+    //     let g = witness.y;
+    //     let b = witness.y;
+    //
+    //     // xxx.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')';
+    //     xxx.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+    //
+    // };
+
+
+    // let xxx = document.getElementById('xxx');
+    // let fooInput = document.getElementById("foo");
+    // fooInput.oninput = function (witness) {
+    //     let inputValue = witness.target.value;
+    //     xxx.style.height = inputValue + "px";
+    //
+    // }
+
+
+    document.onkeydown = function (e) {
+        if (e.key === 'q') {
+            new Audio('bouncy-organ-loop-stabs-bounces_80bpm_C_major.wav').play();
+        }
+
+        if (e.key === 'w') {
+            new Audio('full-808-bass-punchy-dark-shot_C.wav').play();
+
+        }
+
+
+        if (e.key === 'e') {
+
+            new Audio('rave-break-type-drums-loop_112bpm.wav').play();
+        }
+
+
+    }
+
+
+</script>
+
+</body>
+</html>
